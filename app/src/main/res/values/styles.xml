@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView"></style>
+
+    <style name="TextView.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Black.Size14" parent="TextView.Black">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.Black.Size14.Bold" parent="TextView.Black.Size14">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.White" parent="TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.White.Size14" parent="TextView.White">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.White.Size14.Bold" parent="TextView.White.Size14">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DialogShowStyle" parent="android:Theme" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="MyProgress" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+
+    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="CustomShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_dialog_shape</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="behavior_peekHeight">500dp</item>
+    </style>
+
+
+<!--    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">-->
+<!--        <item name="android:background">@drawable/bottom_dialog_shape</item>-->
+<!--    </style>-->
+
+<!--    <style name="ModalBottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">-->
+<!--        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>-->
+<!--        <item name="android:background">@drawable/bottom_dialog_shape</item>-->
+<!--    </style>-->
+
+<!--    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">-->
+<!--        <item name="cornerFamily">cut</item>-->
+<!--        <item name="cornerSize">24dp</item>-->
+<!--    </style>-->
+
+</resources>

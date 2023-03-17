@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KinoGame</string>
+    <string name="label_upcoming_title">Grčki kino - izaberite izvlačenje</string>
+    <string name="label_round">Kolo</string>
+    <string name="label_time">Vreme izvlačenja</string>
+    <string name="label_title_game_details">Vreme izvlačenja %s | Kolo %s</string>
+    <string name="label_random">Slučajni odabir</string>
+    <string name="label_results">Rezultati</string>
+    <string name="label_live_stream">Uživo</string>
+    <string name="label_selected">Izabrano: %s</string>
+    <string name="label_number_to_random">Koliko brojeva želite?</string>
+
+</resources>
